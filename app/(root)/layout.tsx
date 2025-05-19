@@ -6,7 +6,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body>
-      <main>
+      <main className="flex h-screen w-full font-inter">
         {children}
       </main>
     </body>
