@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header-box .header-box-title  {
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.header-box .header-box-subtext {
+    margin-top:2px;
+}
+.header-box .text-bankGradient {
+    color:#439ff3;
+}
+
+.total-balance {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    justify-content: flex-start;
+    box-shadow: 0 0 2px #b5b5b5;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.total-balance .total-balance-amount {
+    width:15em;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.total-balance .header-2{
+    margin-top:0px;
+}
+
+.total-balance .total-balance-label {
+    margin-bottom:0px;
+}
+
+.total-balance-chart {
+    width:150px;
+}
